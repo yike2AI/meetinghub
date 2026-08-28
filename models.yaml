@@ -1,0 +1,10 @@
+# 结构化调用走智谱 OpenAI 兼容端点 https://open.bigmodel.cn/api/paas/v4
+extract_pass1:  {provider: zhipu, model: glm-5.1, api_key_env: GLM_API_KEY}
+extract_pass2:  {provider: zhipu, model: glm-5.1, api_key_env: GLM_API_KEY}
+meeting_summary: {provider: zhipu, model: glm-5.1, api_key_env: GLM_API_KEY}
+topic_naming:   {provider: zhipu, model: glm-5.1, api_key_env: GLM_API_KEY}
+report_compare: {provider: zhipu, model: glm-5.1, api_key_env: GLM_API_KEY}
+mention_judge:  {provider: zhipu, model: glm-5.1, api_key_env: GLM_API_KEY}
+embedding:      {provider: zhipu, model: embedding-3, dimensions: 1024, api_key_env: GLM_API_KEY}
+# DeepSeek 对比配置（key 到位后取消注释逐项切换）：
+# extract_pass1: {provider: deepseek, model: deepseek-chat, api_key_env: DEEPSEEK_API_KEY}
